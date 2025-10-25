@@ -21,7 +21,7 @@ p::first-letter{
     color: rgb(165, 42, 147);
     font-size: 50px;
 }
-p::hover{
+p:hover{
     background-color:olivedrab ;
     cursor: pointer;
 }
