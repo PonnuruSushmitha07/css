@@ -14,11 +14,11 @@ p{
     color: navy;
 }
 p::first-line{
-    color: brown;
+    color:white;
     font-size: 50px;
 }
 p::first-letter{
-    color: rgb(165, 42, 147);
+    color: white;
     font-size: 50px;
 }
 p:hover{
