@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        li{
-            color: aqua;
-            font-size: 32px;
-        }
+       .card{
+        border: 1px solid black;
+        width: 300px;
+        height: 600px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-left:30px ;
+
+       }
+       .card-title{
+        font-size: 30px;
+        font-weight: 500px;
+       }
+       .para{
+        font-size: 24px;
+
+       }
     </style>
     <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-    <h2>Types of CSS</h2>
+   <!--<h2>Types of CSS</h2>
     <ol>
         <li style="color: brown; font-size: 32px;">Inline</li>
         <li>Internal/Embedded</li>
@@ -53,15 +67,65 @@
                 margin-left: 50px;
                 }
         </style>
-
-        <div style= "padding:20px; color: white; background-color: rgb(255, 0, 255); width: 250px; height: 200px; border-radius: 20px; " 
-              <h1>PRE_BOOKING OFFER</h1>
+<div style="display: flex;">
+        <div style= "padding:20px; color: white; background-color: rgb(255, 0, 255); width: 400px; height: 300px; border-radius: 20px; " 
+              <h1 style="font-size: 40;">PRE_BOOKING OFFER</h1>
               <h2 style=" color: white; background-color: rgb(255, 0, 255);">Flat 15% Off</h2>
                <h3 style=" color: white; background-color: rgb(255, 0, 255);">Valid from 12PM to 11:30pm</h3>
               <h4 style=" color: white; background-color: rgb(255, 0, 255);"> today Booking Required</h4>
 
         </div>
-          
-         
+         <div style= "padding:20px; color: white; background-color: rgba(0, 255, 17, 0.637); width: 400px; height: 300px; border-radius: 20px; " 
+              <h1 style="font-size: 40;">INSTANT-OFFER</h1>
+              <h2 style=" color: white; background-color: rgb(0, 255, 89);">Flat 10% Off</h2>
+               <h3 style=" color: white; background-color: rgba(0, 255, 55, 0.808);">Valid from 12PM to 11:30pm</h3>
+              <h4 style=" color: white; background-color: rgb(0, 255, 110);"> today Booking Required</h4>
+
+        </div>
+         <div style= "padding:20px; color: white; background-color:red; width: 400px; height: 300px; border-radius: 20px; " 
+              <h1>Surprise</h1>
+              <p style= "color: white; background-color:red";>Get a Scratch Card</p>
+        </div>
+
+       </div>  -->
+       <section style="display:flex" >
+
+        <div class="card">
+           <img src="./img/1.jpg" width="300px" >
+          <div class="card-title">
+            Attractive Infrasructure
+          </div>
+          <div class="para">
+            Lorem ipsum dolor sit.
+          </div>
+        </div>
+          <div class="card">
+           <img src="./img/5.jpg" width="300px" >
+          <div class="card-title">
+            Attractive Infrasructure
+          </div>
+          <div class="para">
+            Lorem ipsum dolor sit.
+          </div>
+        </div>
+          <div class="card">
+           <img src="./img/2.jpg" width="300px" >
+          <div class="card-title">
+            Attractive Infrasructure
+          </div>
+          <div class="para">
+            Lorem ipsum dolor sit.
+          </div>
+        </div>
+          <div class="card">
+           <img src="./img/4.jpg" width="300px" >
+          <div class="card-title">
+            Attractive Infrasructure
+          </div>
+          <div class="para">
+            Lorem ipsum dolor sit.
+          </div>
+        </div>
+       </section>
 </body>
 </html>
